@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp Page</title>
+   
+   
+	<!--Bootsrap 4 CDN-->
+<!--	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="container1">
+    
+    
+    <div class="maincard">
+        
+        <div class="total">
+        
+        <!--   login form 2 scroll-->
+    <div id="sign2" class="sign2">
+  
+    <div class="card1">    	
+    <div class="cardheader"><center>
+        <img class="logo" src="logo3.png"></center>
+<!--         height="40vh" width="80vw"-->
+<!--        <a><center>LOGO</center></a>-->
+    </div>
+    
+    <div class="cardbody">
+				<form>
+<!--
+					<div class="input-group">
+                        
+						<div class="input-group-prepend">
+                            <input type="text" class="form-control" placeholder="Name">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						
+						
+					</div>
+-->
+					<div class="inputgroup">
+                        
+						<div class="inputgroup-prepend">
+                            <input type="password" class="formcontrol" placeholder="Email">
+							<span class="inputgroup-text"><i class="fas fa fa-envelope"></i></span>
+						</div>
+						
+					</div>
+                    <div class="inputgroup">
+                        
+						<div class="inputgroup-prepend">
+                            <input type="text" class="formcontrol" placeholder="Password">
+							<span class="inputgroup-text"><i class="fas fa-key"></i></span>
+						</div>
+						
+						
+					</div>
+<!--
+					<div class="input-group">
+                        
+						<div class="input-group-prepend">
+                            <input type="password" class="form-control" placeholder="Confirm Password">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						
+					</div>
+					
+-->
+                    <div class="note">
+                        <label class="tick">
+                        <input type="checkbox" id="Check"><span class="checkbox"></span>
+                            Remember Me</label>
+
+
+                        <a href="#">Forgot Password?</a>
+<!--
+                        <br><br>
+                        Don't have an account? <a class="arrow-up" id="#" href="#">SignUp</a>
+-->
+                    </div>
+                    
+                    
+                    <div class="login">
+                        <a value="SignUp" id="btn2" class="arrow-up">SignUp</a>
+                        
+                        
+                        <button type="submit" value="Login" class="btn">Login</button>
+                        
+                        
+					</div>
+                      
+				</form>
+			</div>
+        
+<!--
+        <script>
+              
+            $(document).ready(function(){$('#btn2').click(function(){     
+//                alert("bkhdkkd");
+                $("#sign2").css({transform:"translate(0%,-80%)"});
+                $("#sign1").css({transform:"translate(0%,-93%)",height:"80vh"});
+//                $("#arrowdown").css({transform:"rotate(180deg)"});
+//                $("#arrowup").css({transform:"rotate(180deg)"});
+                $("#arrowup").removeClass("arrow-up").addClass("arrowd");
+                $("#arrowdown").removeClass("arrow-up").addClass("arrowd");
+              
+                $(".fa-google-plus-g").css({color:"#dd4b39",background:"white"});
+                $(".fa-facebook-f").css({color:"#3B5998",background:"white"});
+//                $(".fa-twitter").css({color:"#55ACEE",background:"white"});
+                console.log("jdanjnd");
+               
+});
+                              });
+             
+             
+        </script>
+
+
+-->
+<style>
+    .d-none{
+        display: none;
+    }
+        </style>                        
+        
+        <span id="arrowup" class="arrow-up" ><i class="fas fa fa fa-chevron-circle-up" ></i></span>
+        
+         <script>
+              
+            $(document).ready(function(){$('.arrow-up').click(function(){
+                
+                if( $("#arrowup").hasClass("arrow-up") && $("#arrowdown").hasClass("arrow-up") && $("#btn2").hasClass("arrow-up")){
+                $("#sign2").css({transform:"translate(0%,-80%)"});
+                $("#sign1").css({transform:"translate(0%,-93%)",height:"80vh"});
+//                    $("#sign1").addClass("up");
+//                $("#arrowdown").css({transform:"rotate(180deg)"});
+//                $("#arrowup").css({transform:"rotate(180deg)"});
+                $("#arrowup").removeClass("arrow-up").addClass("arrowd");
+                $("#arrowdown").removeClass("arrow-up").addClass("arrowd");
+              
+                $(".fa-google-plus-g").css({color:"#dd4b39",background:"white"});
+                $(".fa-facebook-f").css({color:"#3B5998",background:"white"});
+//                $(".fa-twitter").css({color:"#55ACEE",background:"white"});
+                }
+                
+                else{
+                    $("#sign2").css({transform:"translate(0%,0%) "});
+//                    $("#sign1").removeClass("up");
+                $("#sign1").css({transform:"translate(0%,0%) "});
+//                     $("#arrowdown").css({transform:"rotate(0deg)"});
+//                $("#arrowup").css({transform:"rotate(0deg)"});
+                     $('#arrowup').removeClass("arrowd").addClass("arrow-up");
+                    $("#arrowdown").removeClass("arrowd").addClass("arrow-up");
+                $(".fa-google-plus-g").css({background:"#dd4b39",color:"white"});
+                $(".fa-facebook-f").css({background:"#3B5998",color:"white"});
+//                $(".fa-twitter").css({background:"#55ACEE",color:"white"});
+                   
+                }
+                
+//                              if ( $("#btn2" && "#arrowup" && "#arrowdown ").hasClass("arrow-up")){
+//                            $("#sign2").toggleClass("d-none");
+//            }
+//             else{
+//                 window.location.href="/";
+//             }
+});
+                              });
+             
+             
+        </script>
+        	
+        </div>
+        
+         <div class="icons">
+        <span><i class="fa fa-google-plus-g"></i>
+        </span>
+        <span><i class="fa fa-facebook-f"></i>
+        </span>
+<!--
+        <span><i class="fa fa-twitter"></i>
+        </span>
+-->
+        
+    
+    </div>
+        
+        </div>
+    
+          
+    
+   
+    
+    
+<!--    signup    form1-->
+        <div id="sign1" class="sign1">
+            
+<!--            <div class="box"><span class="arrow1"><i class="fas fa fa fa-arrow-circle-down" ></i></span> </div>-->
+<!--   icons yeta thiyo-->
+    
+    
+    <div class="card1">
+<!--        arrow-circle-up-->
+   
+      <span class="arrow-up" id="arrowdown"><i class="fas fa fa fa-chevron-circle-up" ></i></span>
+        
+<!--
+        <script>
+             
+            $(document).ready(function(){$('#arrowdown').click(function(){
+                $("#sign2").css({transform:"translate(0%,0%)"});
+                $("#sign1").css({transform:"translate(0%,0%)"});
+                $("#arrowdown").css({transform:"rotate(180deg)"});
+                $(".fa-google-plus-g").css({background:"#dd4b39",color:"white"});
+                $(".fa-facebook-f").css({background:"#3B5998",color:"white"});
+                $(".fa-twitter").css({background:"#55ACEE",color:"white"});
+});
+                              });
+        </script>
+-->
+        
+        
+        
+        	
+    <div class="cardheader">
+        <img class="logo" src="logo3.png">
+<!--        <a>LOGO</a>-->
+    </div>
+    
+    <div class="cardbody">
+				<form>
+					<div class="inputgroup">
+                        
+						<div class="inputgroup-prepend">
+                            <input type="text" class="formcontrol" placeholder="Name">
+							<span class="inputgroup-text"><i class="fas fa-user"></i></span>
+						</div>
+						
+						
+					</div>
+					<div class="inputgroup">
+                        
+						<div class="inputgroup-prepend">
+                            <input type="password" class="formcontrol" placeholder="Email">
+							<span class="inputgroup-text"><i class="fas fa fa-envelope"></i></span>
+						</div>
+						
+					</div>
+                    <div class="inputgroup">
+                        
+						<div class="inputgroup-prepend">
+                            <input type="text" class="formcontrol" placeholder="Password">
+							<span class="inputgroup-text"><i class="fas fa-key"></i></span>
+						</div>
+						
+						
+					</div>
+					<div class="inputgroup">
+                        
+						<div class="inputgroup-prepend">
+                            <input type="password" class="formcontrol" placeholder="Confirm Password">
+							<span class="inputgroup-text"><i class="fas fa-key"></i></span>
+						</div>
+						
+					</div>
+					
+					<div class="signup">
+						<input type="submit" value="SignUp" class="btn">
+					</div>
+				</form>
+			</div>
+        </div></div>
+    
+    
+    </div>
+</div></div>
+</body>
+</html>

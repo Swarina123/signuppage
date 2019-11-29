@@ -1,0 +1,649 @@
+
+
+html,body{
+/*background-image: url('');*/
+     background-image: linear-gradient(to right, #56CCF2 , #2F80ED);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+    width: 100vw;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.container1{
+   
+height: 100%;
+    width: 100%;
+
+/*align-content: center;*/
+    
+}
+
+.total{
+    position: relative;
+    width: 100%;
+}
+
+.maincard{
+
+ height: 95%;
+    width: 95%;
+    overflow:hidden;
+      position:relative;
+    top:50%;
+    left:50%;
+     transform: translate(-50%,-50%);
+/*    transform-origin: center;   */
+    
+    
+}
+
+
+.sign1 .card1{
+
+height: inherit;
+    position: relative;
+    border: 2px solid grey;
+    padding: 5vh 5vw 0 5vw;
+/*        40px 20px 0 10px;*/
+    border-radius: 50px; 
+margin-top: 0px;
+width: auto;
+background-color: white;
+/*
+    transform: translate(-50%,-50%);
+    transform-origin: center;
+*/ 
+/*    100% 30%*/
+    clip-path: polygon(0 0,7% 0,92% 25%,93% 25.5%,96% 27%,97% 28%,98% 29%,99% 31%,100% 34% ,100% 35%, 100% 100%, 0% 100%);
+}
+
+.sign1 .cardheader{
+/*
+   background-image: url("logoWhite.png");
+    height: 4vh;
+    width:20vw;
+*/
+/*    margin-top: 80px;;*/
+    padding-top: 12vh; 
+    border:none;
+    padding-bottom: 0vh;
+    position: inherit;
+}
+
+.cardheader a{
+    
+    font-size: 10vw;
+    letter-spacing:2vw;
+    
+}
+
+.logo{
+    
+     height:12vh; 
+    width:50vw;
+}
+
+#sign1 .cardbody{
+    padding: 80px 0px 0 0px;
+    font-size: 4vw;
+    position: inherit;
+    
+}
+
+#sign2 .cardbody{
+    padding: 80px 0px 0 0px;
+    font-size: 4vw !important;
+    position: inherit;
+    
+}
+.inputgroup span{
+   
+width: 50px;
+background-color: #ffffff;
+color: gray;
+border:0 ;
+    
+}
+
+
+.inputgroup{
+    background-color: transparent;
+    backface-visibility: visible;
+    border: none;
+    padding-bottom: 25px;
+    border-bottom: 1px solid grey;
+    padding-top: 60px;
+    
+    
+}
+
+.inputgroup input{
+    border: none;
+    width:92%;
+    font-size:4vw;
+}
+
+.inputgroup .formcontrol{
+    font-size: 4vw;
+}
+
+
+.signup{
+    margin-top: 10vh;
+    margin-left: 48vw !important;
+}
+
+.sign1 .btn{
+   
+    font-size: 5vw  !important;
+    background-image: linear-gradient(to right, #56CCF2 , #2F80ED);
+    border-radius: 50px;
+    padding: 25px 90px;
+/*    transform: translate(145%,120%);*/
+    color: white;
+}
+
+
+
+.arrow-down{
+
+  font-size: 85px;
+    color:#2F80ED; 
+
+}
+
+.icons{
+    margin-top: -2em; 
+    position: relative;
+    left:20%;
+    letter-spacing: 18vw;
+    transform:rotate(26deg);
+}
+
+.icons span i{
+    
+    transform: rotate(-26deg);
+    display: inline-block;
+    position:inherit;
+/*   padding: 30px 30px 30px 30px;*/
+  font-size: 70px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+/*  margin: 5px 10px;*/
+    border-radius: 50%;
+}
+
+.fa-facebook-f{
+     padding: 30px 18px 30px 35px;
+/*    padding-left: 35px;*/
+    background: #3B5998;
+  color: white;
+
+
+}
+
+.fa-google-plus-g{
+     padding: 30px 30px 30px 30px;
+    
+    background: #dd4b39;
+  color: white;
+      
+}
+
+.fa-twitter {
+     padding: 30px 30px 30px 30px;
+  background: #55ACEE;
+  color: white;
+      
+}
+
+
+
+.sign1{
+/*height:100vh;*/
+    width:100%;
+    margin-top:-12em; 
+    position: absolute;
+    transition: 0.8s;
+
+}
+
+.sign2{
+    margin-top: 15px; 
+/*    height:100%;*/
+    width:100%;
+    margin-bottom: 0px;
+    transition:0.8s; 
+    
+}
+
+.sign2 .card1{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid grey;
+    padding: 8vh 5vw 0 5vw;
+/*        80px 20px 0px 20px;*/
+    border-radius: 50px; 
+height: 80vh;
+width: auto;
+background-color: white;
+/*
+    transform: translate(-50%,-50%);
+    transform-origin: center;
+*/
+    
+     clip-path: polygon(0% 0%, 100% 0%, 100% 100%,94% 100%,7% 70% ,6% 69.5%, 3% 68%,1% 66%,0% 64%,0% 62%);
+}
+
+.sign2 .cardheader{
+    border:none;
+    padding-bottom: 0vh;
+    position: inherit;
+}
+
+.note{
+    color:gray;
+    margin-top: 5vh;
+}
+
+.tick{
+    position: relative;
+    padding-left: 6vw;
+    margin-top: 0.25vh;
+}
+
+/* Hide the browser's default checkbox */
+.tick input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkbox{
+    left:0;
+    position: absolute;
+    height: 2.7vh;
+    width: 4.5vw;
+    background-color: #eee;
+    border-radius: 1vw;
+}
+
+/*
+.checkbox:checked{
+    background: #2F80ED;
+    
+}
+*/
+
+
+/* When the checkbox is checked, add a blue background */
+.tick input:checked ~ .checkbox {
+  background-color: #2F80ED;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.tick input:checked ~ .checkbox:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.tick .checkbox:after {
+  left: 1.25vw;
+    top:0.9vw;
+  width: 1vw;
+  height:1vh;
+  border: solid white;
+  border-width: 0 0.5vw 0.5vw 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.note a{
+    color: gray;
+    margin-left: 18vw;
+    
+}
+
+#arrowup{
+    font-size: 85px;
+    color:#2F80ED;
+    position: absolute;
+/*    margin: 230px 0px 0 790px;*/
+    margin-left: 82vw;
+    margin-top: 22vh !important;
+}
+
+#arrowdown{
+    font-size: 85px;
+    color:#2F80ED; 
+    position: absolute;
+    margin: inherit;
+    z-index: 1;
+}
+
+.arrow-up{  
+  
+    transform:rotateZ(0deg);
+    
+}
+
+.arrowd{
+   
+  
+    transform:rotateZ(180deg) !important;
+    
+}
+
+.login{
+    margin-right: 10vw;
+    margin-left: 18vw  !important;
+    margin-top: 12vh !important;
+}
+
+
+.sign2 .btn{
+position: absolute;
+    margin-top:-1.5vh;
+     margin-left: 4vw;
+    font-size: 5vw !important;
+    background-image: linear-gradient(to right, #56CCF2 , #2F80ED);
+    border-radius: 50px;
+    padding: 25px 90px;
+/*    transform: translate(140%,120%);*/
+    color: white;
+}
+
+.sign2 #btn2{
+/*    margin-top: 2vh;*/
+    position: relative;
+    font-size: 5vw !important;
+    border-radius: 50px;
+    padding: 23px 68px;
+    color:#2F80ED;
+    background: white;
+    border:0.3vw solid #2F80ED;
+   
+}
+
+.up{
+        transform:translate(0%,-90%);
+        height:80vh;
+    }
+    
+
+
+
+/* Medium devices (landscape tablets, 768px and up) ipad*/
+@media only screen and (min-width: 768px) and (min-height: 1024px) {
+    
+    .sign1{
+/*height:100vh;*/
+    width:100%;
+    margin-top:-12em; 
+    position: absolute;
+    transition: 0.8s;
+   
+}
+
+.sign2{
+    margin-top: 15px; 
+/*    height:100%;*/
+    width:100%;
+    margin-bottom: 0px;
+    transition:0.8s; 
+    z-index: -999;
+    
+}
+    
+    #arrowup{
+    font-size: 85px;
+    color:#2F80ED;
+    position: absolute;
+z-index: 5;
+    margin-left: 80vw;
+    margin-top: 13vh;
+}
+    
+    #arrowdown{
+    font-size: 85px;
+    color:#2F80ED; 
+    position: absolute;
+    margin-left: -2vw;
+        margin-top: -1vh;
+    z-index: 1;
+}
+
+    
+    .logo{
+    
+     height:8vh; 
+    width:30vw;
+}
+
+#sign2 .cardbody{
+    padding: 80px 0px 0 0px;
+    font-size: 3.75vw;
+    position: inherit;
+    
+}
+    
+   #sign1 .cardbody{
+    padding: 50px 0px 0 0px;
+    font-size: 4vw;
+    position: inherit;
+    
+}
+    
+    .inputgroup input{
+    border: none;
+    width:92%;
+    font-size: 3.25vw;
+}
+    
+    
+    .signup{
+    margin-top: 6vh;
+    margin-left: 55vw;
+}
+
+    
+    .sign1 .btn{
+   
+    font-size: 4vw;
+    background-image: linear-gradient(to right, #56CCF2 , #2F80ED);
+    border-radius: 50px;
+    padding: 25px 90px;
+
+    color: white;
+}
+    
+    .login{
+    margin-right: 10vw;
+    margin-left: 25vw;
+    margin-top: 10vh;
+}
+    
+    .sign2 .btn{
+position: absolute;
+    margin-top:-1.75vh;
+     margin-left: 4vw;
+    font-size: 4vw;
+    background-image: linear-gradient(to right, #56CCF2 , #2F80ED);
+    border-radius: 50px;
+
+    color: white;
+}
+
+.sign2 #btn2{
+
+    position: relative;
+    font-size: 4vw;
+    border-radius: 50px;
+    padding: 20px 68px;
+    color:#2F80ED;
+    background: white;
+    border:0.3vw solid #2F80ED;
+   
+}
+    
+    inputgroup{
+    background-color: transparent;
+    backface-visibility: visible;
+    border: none;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+    padding-top: 50px;
+}
+    
+    .icons{
+    margin-top: -1em; 
+    position: relative;
+    left:28%;
+    letter-spacing: 10vw;
+    transform:rotate(26deg);
+} 
+    .up{
+        transform:translate(0%,-93%);
+        height:80vh;
+    }
+}
+
+
+
+
+/*ipad pro*/
+
+@media only screen and (min-width: 1024px)and (min-height:1366px) {
+    
+    .sign1{
+
+    width:100%;
+    margin-top:-12em; 
+    position: absolute;
+    transition: 0.8s;
+        z-index: -555;
+
+}
+
+.sign2{
+    margin-top: 15px; 
+    height:100%;
+    width:100%;
+    margin-bottom: 0px;
+    transition:0.8s; 
+    z-index: -999;
+    
+}
+    
+    .cardbody{
+    padding: 60px 0px 0 0px;
+    font-size: 3vw;
+    position: inherit;
+}
+    
+      .logo{
+    
+     height:8vh; 
+    width:30vw;
+}
+    
+    .inputgroup input{
+    border: none;
+    width:92%;
+    font-size: 3vw;
+}
+
+       .signup{
+    margin-top: 6vh;
+    margin-left: 55vw;
+}
+
+    
+    .sign1 .btn{
+   
+    font-size: 3vw;
+    background-image: linear-gradient(to right, #56CCF2 , #2F80ED);
+    border-radius: 50px;
+    padding: 25px 90px;
+
+    color: white;
+}
+    
+    .login{
+    margin-right: 10vw;
+    margin-left: 30vw;
+    margin-top: 10vh;
+}
+    
+    .sign2 .btn{
+position: absolute;
+    margin-top:-2vh;
+     margin-left: 6vw;
+    font-size: 3vw;
+    background-image: linear-gradient(to right, #56CCF2 , #2F80ED);
+    border-radius: 50px;
+
+    color: white;
+}
+
+.sign2 #btn2{
+
+    position: relative;
+    font-size: 3vw;
+    border-radius: 50px;
+    padding: 20px 68px;
+    color:#2F80ED;
+    background: white;
+    border:0.3vw solid #2F80ED;
+   
+}
+    
+    .note a{
+    color: gray;
+    margin-left: 20vw;
+    
+}
+   
+    #arrowup{
+    font-size: 7vw;
+    color:#2F80ED;
+    position: absolute;
+    margin-left: 82vw;
+    margin-top: 18vh;
+        z-index: 9999999;
+}
+    
+    #arrowdown{
+    font-size: 7vw;
+    color:#2F80ED; 
+    position: absolute;
+    margin: inherit;
+    z-index: 1;
+        margin-top: -3vh;
+        margin-left: -3vw;
+}
+
+ 
+    .up{
+        transform:translate(0%,-90%);
+        height:80vh;
+    }
+    
+}
+    
